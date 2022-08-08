@@ -11,69 +11,72 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/resert.css">
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="./css/responsivo.css">
 </head>
 <body>
-    <header>
-        <img src="./imagens/pokebola.png" alt="pokebola">
-        <h1>MapaDev Week</h1>
+    <header class="cabecalho">
+        <img class="pokebola" src="./imagens/pokebola.png" alt="pokebola">
+        <h1 class="titulo">MapaDev Week</h1>
     </header>
 
-    <main>
-        <button>
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar">
             <img src="./imagens/seta.png" alt="Seta voltar">
         </button>
 
-        <ul>
-            <li>
-                <div>
-                    <h2>Pikachu</h2>
-                    <p>HP 300</p>
+        <ul class="lista-pokemons">
+            <li class="cartao selecionado fundo1">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP 300</p>
                 </div>
 
-                <div>
-                    <img src="./imagens/pikachu.png" alt="Pikachu">
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="./imagens/pikachu.png" alt="Pikachu">
                 </div>
 
-                <div>
-                    <h3>Descrição</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, atque tempore! Est cupiditate numquam nihil facilis et, reiciendis excepturi dignissimos, nulla corrupti nobis nesciunt voluptatibus ullam delectus corporis sapiente veritatis.</p>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Pikachu é um tipo de Pokémon elétrico: os bolsos em suas bochechas, identificado por discos vermelhos. são capazes de gerar choques elétricos.</p>
                 </div>
             </li>
 
-            <li>
-                <div>
-                    <h2>Charizard</h2>
-                    <p>HP 800</p>
+            <li class="cartao fundo2">
+                <div class="informacoes">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="vida">HP 800</p>
                 </div>
 
-                <div>
-                    <img src="./imagens/charizard.png" alt="charizard">
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="./imagens/charizard.png" alt="Charizard">
                 </div>
 
-                <div>
-                    <h3>Descrição</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, atque tempore! Est cupiditate numquam nihil facilis et, reiciendis excepturi dignissimos, nulla corrupti nobis nesciunt voluptatibus ullam delectus corporis sapiente veritatis.</p>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Charizard é do tipo Fogo e voador. Um dos pokemóns mais temidos da região. Tem um pescoço longo, pequenos olhos azuis, narinas ligeiramente levantadas. </p>
                 </div>
             </li>
-            
-            <li>
-                <div>
-                    <h2>Mewtwo</h2>
-                    <p>HP 200</p>
+
+            <li class="cartao fundo3">
+                <div class="informacoes">
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="vida">HP 1200</p>
                 </div>
 
-                <div>
-                    <img src="./imagens/mewtwo.png" alt="Mewtwo">
+                <div class="container-imagem">
+                    <img class="imagem-pokemon" src="./imagens/mewtwo.png" alt="Pikachu">
                 </div>
 
-                <div>
-                    <h3>Descrição</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, atque tempore! Est cupiditate numquam nihil facilis et, reiciendis excepturi dignissimos, nulla corrupti nobis nesciunt voluptatibus ullam delectus corporis sapiente veritatis.</p>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Mewtwo é uma criatura com postura humanóide, mas tem algumas características felinas. Seu corpo é cinzento e uma cauda totalmente roxa.</p>
                 </div>
             </li>
         </ul>
 
-        <button>
+        <button class="btn-seta">
             <img src="./imagens/seta.png" alt="Seta avançar">
         </button>
     </main>
